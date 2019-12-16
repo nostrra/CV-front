@@ -1,0 +1,4 @@
+{
+    "technologyURL": "http://127.0.0.1:5000/api/technology",
+    "tipsURL": "http://127.0.0.1:5000/api/tips"
+}

@@ -1,0 +1,9 @@
+.list-of-item {
+    color: inherit;
+    text-decoration: none;
+}
+
+.login-icon {
+    position: absolute;
+    right: 2vw;
+}
