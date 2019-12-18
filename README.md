@@ -1,6 +1,8 @@
 # CV
 Web app
 
+URL: http://tensor-cv-front.herokuapp.com/
+
 ## Getting started front
 
 ```shell
