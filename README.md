@@ -4,8 +4,6 @@ Web app
 ## Getting started front
 
 ```shell
-cd front
-
 npm install
 
 npm start
