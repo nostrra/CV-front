@@ -1,4 +1,4 @@
 {
-    "technologyURL": "https://tensor-cv-back.herokuapp.com/api/technology",
-    "tipsURL": "https://tensor-cv-back.herokuapp.com/api/tips"
+    "technologyURL": "http://tensor-cv-back.herokuapp.com/api/technology",
+    "tipsURL": "http://tensor-cv-back.herokuapp.com/api/tips"
 }
