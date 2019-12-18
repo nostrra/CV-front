@@ -1,4 +1,4 @@
 {
-    "technologyURL": " http://localhost:5000/api/technology",
-    "tipsURL": " http://localhost:5000/api/tips"
+    "technologyURL": "https://tensor-cv-back.herokuapp.com/api/technology",
+    "tipsURL": "https://tensor-cv-back.herokuapp.com/api/tips"
 }
