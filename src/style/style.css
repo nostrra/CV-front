@@ -1,11 +1,11 @@
 .list-of-item {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 .login-icon {
-    position: absolute;
-    right: 2vw;
+  position: absolute;
+  right: 2vw;
 }
 
 body,
@@ -41,10 +41,10 @@ html {
 }
 
 #bt {
-    position: absolute;
-    left: -25vw;
-    top: -3.9vh;
-    font-size: 6rem;
-    width: 39.3vw;
-    height: 27vh;
-  }
+  position: absolute;
+  left: -25vw;
+  top: -3.9vh;
+  font-size: 6rem;
+  width: 39.3vw;
+  height: 27vh;
+}
