@@ -1,13 +1,8 @@
 import React from 'react';
 
 class Error extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { url: 'https://www.youtube.com/watch?v=G1IbRujko-A' };
-  }
-
   componentDidMount() {
-    window.location.replace(`${this.state.url}`);
+    window.location.replace('https://www.youtube.com/watch?v=G1IbRujko-A');
   }
 
   render() {

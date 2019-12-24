@@ -4,6 +4,7 @@ import createTips from './store/actions/tipsAction';
 import CreatingCV from './components/CV';
 import Error from './components/Error';
 import { fetchData } from './Utils/connect';
+import { getFullURL } from './Utils/Utils';
 import Home from './components/Home';
 import ListOfTechnology from './components/ListOfTechnology';
 import Navigation from './components/Navigation';
@@ -15,11 +16,12 @@ import './style/style.css';
 
 class App extends Component {
   componentDidMount = () => {
-    const technology = fetchData(config.technologyURL);
+    const technology = fetchData(getFullURL(config.backURL, config.endPointTechnology));
     technology.then((value) => {
       this.props.createTechnology(value);
     });
-    const tips = fetchData(config.tipsURL);
+
+    const tips = fetchData(getFullURL(config.backURL, config.endPointTips));
     tips.then((value) => {
       this.props.createTips(value);
     });
