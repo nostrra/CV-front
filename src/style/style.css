@@ -48,3 +48,11 @@ html {
   width: 39.3vw;
   height: 27vh;
 }
+
+.description {
+  width: 100%;
+}
+
+.textInput {
+  width: 100%;
+}
